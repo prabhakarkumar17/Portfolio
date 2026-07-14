@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#stdName {
+    color: blue;
+}
+
+#navbar {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: navy;
+    height: 50px;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+#portfolio {
+    color: yellow;
+}
+
+#navLinks{
+    margin-left: 400px;
+}
+
+#navLinks a:hover {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+#profile{
+    background-color: lightcyan;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+#profileImage {
+    width: 150px;
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#profileDetails {
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 40px;
+}
+
+.btn {
+    width: 110px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.download {
+    background-color: blue;
+    color: white;
+}
+
+.contact {
+    background-color: white;
+    color: blue;
+}
+
+.icon{
+    margin-right: 3px;
+}
+
+#profile {
+    display: flex;
+    gap: 20px;
+}
+
+#aboutEducation{
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    width: 500px;
+    height:200px;
+}
+
+#about {
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#skills{
+    display: flex;
+}
